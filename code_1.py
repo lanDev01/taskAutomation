@@ -18,4 +18,13 @@ link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
 pyautogui.write(link)
 pyautogui.press("enter")
 
-time.sleep(5)
+time.sleep(2)
+
+# fazendo login
+pyautogui.click(x=3420, y=463)
+
+pyautogui.write("lnjnr9215@gmail.com") # escrevendo a senha
+pyautogui.press("tab") # pulando para proximo campo
+pyautogui.write("alan123456") # escrevendo a senha
+pyautogui.press("tab")
+pyautogui.press("enter") # apertando enter
